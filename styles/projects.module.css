@@ -1,0 +1,48 @@
+.main {
+    max-width: 70rem;
+    margin: 2rem auto;
+}
+
+.main h2 {
+    margin-left: 4rem;
+}
+
+.main b {
+    background: -webkit-linear-gradient(left, #a125e1, #d8c3e7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sections {
+    margin: 2rem 4rem 0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 2500px;
+}
+
+.sections .cards {
+    max-width: 30rem;
+    padding: 1.5rem;
+    border: 2px solid #a964e8;
+    border-radius: 20px;
+}
+
+.sections .cards p {
+    line-height: 1.8rem;
+}
+
+.sections .cards:hover {
+    cursor: pointer;
+    background-color: #a964e8;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+@media (max-width: 750px) {
+    .sections {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem 1.5rem;
+    }
+}

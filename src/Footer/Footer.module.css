@@ -1,0 +1,46 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    margin-top: 1rem;
+}
+
+.main a {
+    color: white;
+    margin: 0 1rem 0 0;
+    display: inline-block;
+}
+
+.mainTwo a:hover {
+    color: #a964e8;
+}
+
+.mainOne {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem 2rem;
+}
+
+.mainTwo {
+    padding: 7rem 3rem 0 0;
+}
+
+@media (max-width : 800px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        color: white;
+        margin-top: 1rem;
+    }
+
+    .mainOne {
+        padding: 1rem 2rem 1rem;
+    }
+
+    .mainTwo {
+        padding: 0 2rem 1rem;
+        line-height: 30px;
+    }
+}
