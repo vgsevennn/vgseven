@@ -1,0 +1,58 @@
+.updateForm {
+  border: 1px solid #000000;
+  padding: 2rem;
+  display: inline-block;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+
+  input {
+    background: transparent;
+    padding: 1rem;
+    outline: none;
+    border: 1px solid #000000;
+    color: #000000;
+    margin: 1rem;
+    border-radius: 20px;
+    max-width: 17rem;
+  }
+
+  button {
+    background: transparent;
+    outline: none;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    padding: 1rem;
+    color: #7a7a7a;
+  }
+
+  button:hover {
+    cursor: pointer;
+    color: #000000;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .updateForm {
+    border: 1px solid #ffffff;
+
+    input {
+      border: 1px solid #ffffff;
+      color: white;
+    }
+
+    button {
+      border: 1px solid #ffffff;
+    }
+
+    button:hover {
+      color: white;
+    }
+  }
+}
+
+@media (max-width: 440px) {
+  .updateForm {
+    display: flex;
+    flex-direction: column;
+  }
+}

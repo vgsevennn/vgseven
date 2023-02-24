@@ -1,0 +1,57 @@
+.main {
+  max-width: 80rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px solid #000000;
+  padding: 1rem 2rem;
+
+  a {
+    color: #000000;
+    margin: 0 0.7rem 0 0;
+    display: inline-block;
+  }
+
+  a:hover {
+    color: #000000;
+  }
+
+  .mainOne {
+    padding: 1rem;
+  }
+
+  .mainTwo {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+
+@media (prefers-color-scheme: dark) {
+  .main {
+    background: black;
+    color: #c9c9c9;
+    border-top: 1px solid #ffffff;
+
+    a {
+      color: #c9c9c9;
+    }
+    a:hover {
+      color: #ffffff;
+    }
+  }
+}

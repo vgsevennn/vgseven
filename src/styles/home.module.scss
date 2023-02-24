@@ -1,0 +1,35 @@
+.main {
+  max-width: 75rem;
+  margin: 2rem auto;
+
+  h1 {
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .about {
+    margin: 0 1.5rem;
+    display: block;
+
+    p {
+      line-height: 1.7rem;
+      word-spacing: 2px;
+    }
+  }
+}
+
+.featuredCards {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 1rem;
+}
+
+@media (max-width: 750px) {
+  .main {
+    margin: 1rem;
+
+    h1 {
+      margin-left: 1rem;
+    }
+  }
+}

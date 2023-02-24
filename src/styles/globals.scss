@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  font-family: "Readex Pro", sans-serif;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: #c9c9c9;
+  }
+}

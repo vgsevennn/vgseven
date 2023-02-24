@@ -1,0 +1,34 @@
+.articlesSection {
+  max-width: 55rem;
+  margin: 2rem auto;
+
+  h1 {
+    font-size: 2.5rem;
+    margin: 2rem 0 1.5rem;
+  }
+
+  span {
+    font-size: 15px;
+    margin: 20px 0;
+  }
+
+  p, ul {
+    line-height: 1.7rem;
+    word-spacing: 2.5px;
+    font-size: 18px;
+  }
+
+  i {
+    font-family: "Times New Roman", sans-serif;
+  }
+
+  img {
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 950px) {
+  .articlesSection {
+    margin: 0 1.5rem;
+  }
+}

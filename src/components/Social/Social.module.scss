@@ -1,0 +1,25 @@
+.social {
+  display: inline-block;
+  margin-right: 1rem;
+
+  i {
+    margin-right: 14px;
+    display: inline-block;
+  }
+
+  a {
+    color: #818080;
+  }
+
+  a:hover {
+    color: #000000;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .social {
+    a:hover {
+      color: white;
+    }
+  }
+}

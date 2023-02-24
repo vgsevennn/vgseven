@@ -1,0 +1,43 @@
+.main {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #000000;
+
+  .heading a {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+  }
+  .heading a:hover {
+    cursor: pointer;
+  }
+  .navigation {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+  .navigation a {
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .navigation a:hover {
+    background-color: #000000;
+    color: white;
+    transition: 0.5s ease-in-out;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .main {
+    border-bottom: 1px solid #ffffff;
+
+    .heading a:hover {
+      color: white;
+    }
+    .navigation a:hover {
+      background: white;
+      color: black;
+    }
+  }
+}

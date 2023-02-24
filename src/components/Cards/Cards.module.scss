@@ -1,0 +1,84 @@
+.main {
+  max-width: 90rem;
+  margin: auto;
+
+  .sections {
+    margin: 1rem 1rem 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .sections .cards {
+    max-width: 35rem;
+    padding: 1.5rem;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    color: #000000;
+  }
+
+  .sections .cards p {
+    line-height: 1.8rem;
+  }
+
+  .sections .cards {
+    span {
+      background: #000000;
+      color: #ffffff;
+    }
+  }
+
+  .sections .cards:hover {
+    cursor: pointer;
+    background: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+
+    span {
+      background-color: white;
+      color: black;
+    }
+  }
+
+  .sections .cards span {
+    font-size: 12px;
+    padding: 0.5rem;
+    background-color: #000000;
+    border-radius: 15px;
+    color: white;
+  }
+}
+
+@media (max-width: 750px) {
+  .sections {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+  }
+}
+
+
+@media (prefers-color-scheme: dark) {
+  .main {
+    .sections .cards {
+      color: #c9c9c9;
+      border: 2px solid white;
+    }
+
+    .sections .cards {
+      span {
+        background: #c9c9c9;
+        color: black;
+      }
+    }
+
+    .sections .cards:hover {
+      background: #c9c9c9;
+      color: black;
+
+      span {
+        background-color: #000000;
+        color: #ffffff;
+      }
+    }
+  }
+}
